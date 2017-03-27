@@ -68,7 +68,7 @@ function calculateReceipt()
 
   receiptSubtotal = asCurrency(receiptSubtotal);
   receiptTax = asCurrency(receiptTax);
-  receiptTax = asCurrency(receiptTotal);
+  receiptTotal = asCurrency(receiptTotal);
 
   document.getElementById("sub").innerHTML = receiptSubtotal;
   document.getElementById("tax").innerHTML = receiptTax;
